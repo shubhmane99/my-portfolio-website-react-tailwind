@@ -9,7 +9,7 @@ function Home() {
             <div className='px-4  mx-auto max-w-screen-lg flex flex-col items-center justify-center h-full md:flex-row'>
                 <div className='flex flex-col justify-center h-full'>
                     <h2 className='text-4xl sm:text-7xl font-bold text-white'>
-                        I am a Full Stack Developer
+                        I'm a Javscript Full Stack Developer
                     </h2>
                     <p className='text-gray-500 max-w-md py-4 font-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fuga aut natus quasi consequatur fugiat voluptate mollitia quos dolorem nesciunt quidem ea quam eos nam
                         tenetur cupiditate ullam nostrum perferendis.
