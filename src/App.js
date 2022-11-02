@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import AboutUs from "./Components/AboutUs";
+import Contact from "./Components/Contact";
+import Experience from "./Components/Experience";
+import Home from "./Components/Home";
+import Navbar from "./Components/Navbar";
+import Portfolio from "./Components/Portfolio";
+import SocialLinks from "./Components/SocialLinks";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+    <Navbar/>
+    <Home/>
+    <SocialLinks/>
+    <AboutUs/>
+    <Portfolio/>
+    <Experience/>
+    <Contact/>
+    {/* <h1 className='text-4xl font-bold font-signature'>shubham</h1> */}
+   </div>
   );
 }
 
