@@ -36,7 +36,7 @@ function Navbar() {
             className='flex justify-between items-center w-full h-20 px-4 bg-black text-white'
         >
             <div className=''>
-                <h1 className='text-6xl ml-2 font-signature'>Prathmesh</h1>
+                <h1 className='text-6xl ml-2 font-signature'>Anuj</h1>
 
             </div>
             <ul className=' hidden md:flex'>
